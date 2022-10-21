@@ -94,6 +94,7 @@ def batch_generator(xy_pair_generator):
             yield batch
             xs = []
             ys = []
+             ys = []
 
 if __name__ == '__main__':
     # arguments: <main_token_to_nb_file> <list of files with tokens and contexts>
